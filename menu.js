@@ -30,9 +30,6 @@ function dropdown(inp){
     textBtn.append(`${inp[1]}`);
     btnPM.append(textBtn);
     secendaryCon.classList.add("dropdown-content");
-    secendaryCon.classList.add(`${inp[2]}`)
-
-    let text3 = "50 den"
 
     let table = document.createElement("table");
 
@@ -75,18 +72,16 @@ function dropdown(inp){
         let b = i
         let d = b + 1
 
+        
+
         if (d == inp.length) {
             td1.classList.remove("tdBot")
             td2.classList.remove("tdBot")
             td3.classList.remove("tdBot")
         }
 
-        if (typeof inp[0] === 'string') {
-            btnPM.style.backgroundImage = `url(${inp[0]})`;
-        } else {
-            btnPM.style.backgroundColor = "#5D5D5A" ;
-        }
-        
+        btnPM.style.backgroundImage = `url(${inp[0]})`;
+
         btnPM.append(imgPlus);
         imgPlus.setAttribute("src", "plus.png")
         imgPlus.classList.add("imgPlusClass")
