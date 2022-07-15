@@ -1,0 +1,30 @@
+{
+    "beer": {
+        "Skopsko": {
+            "price": "100",
+            "image": "skopsko.jpg"
+        },
+        "Heineken": {
+            "price": "150",
+            "image": "skopsko.jpg"
+        },
+        "Amstel": {
+            "price": "130",
+            "image": "skopsko.jpg"
+        },
+        "Carlsberg": {
+            "price": "140",
+            "image": "skopsko.jpg"
+        }
+    },
+    "whiskey": {
+        "Jack Daniels": {
+            "price": "250",
+            "image": "jackdaniels.jpg"
+        },
+        "Monkey Shoulder": {
+            "price": "260",
+            "image": "jackdaniels.jpg"
+        }
+    }
+}
