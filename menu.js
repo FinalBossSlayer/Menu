@@ -139,7 +139,7 @@ function dropdown(inp){
 }
 
 // The place where we get all the items from the json
-fetch("http://FinalBossSlayer.github.io/Data/items.json")
+fetch("https://finalbossslayer.github.io/Menu/Data/items.json")
 .then((a) =>{
    return a.json();
 })
