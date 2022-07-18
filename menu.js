@@ -139,12 +139,38 @@ function dropdown(inp){
 }
 
 // The place where we get all the items from the json
-fetch("https://finalbossslayer.github.io/Menu/Data/items.json")
+fetch("https://d5dagtlfjigi7.cloudfront.net/items.json")
 .then((a) =>{
    return a.json();
 })
 .then((data) =>{
-    for (const times in data) {
-        dropdown(data)
-    }
+    // for (const times in data) {
+    //     dropdown(data)
+    // }
+    console.log(data)
 });
+
+// var counter = 0
+// $.getJSON("items.json", function(json) {
+//     for (const property in json) {
+//         for (const item in json[property])
+//         {
+//             var name = item
+//             var price = json[property][item]["price"]
+//             var image = `images/${json[property][item]["image"]}`
+
+//             var tag = document.createElement("p");
+//             var imgtag = document.createElement("img")
+//             var text = document.createTextNode(name + " " + price);
+//             imgtag.setAttribute(
+//                 'src',
+//                 image,
+//                 );
+//             tag.appendChild(text);
+//             var element = document.getElementById("b");
+//             element.appendChild(tag);
+//             element.appendChild(imgtag)
+//             counter++;
+//         }    
+//     }    
+// });
