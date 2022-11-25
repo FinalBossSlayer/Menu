@@ -18,13 +18,17 @@
         }
     },
     "whiskey": {
-        "Jack Daniels": {
-            "price": "250",
-            "image": "jackdaniels.jpg"
+        "Espreso": {
+            "price": "70",
+            "image": "coffee-cup.png"
         },
-        "Monkey Shoulder": {
-            "price": "260",
-            "image": "jackdaniels.jpg"
+        "Makijato": {
+            "price": "80",
+            "image": "CoffeeImg.jpg"
         }
+    },
+    "bgi":{
+        "bgiBeer": "beerB.jpg",
+        "bgiWhiskey": "coffeeB.jpg"
     }
 }

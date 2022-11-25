@@ -61,6 +61,8 @@ fetch("https://finalbossslayer.github.io/Menu/Data/items.json")
                 
             // Image for the menu item
             imgTable.setAttribute("src" , `images/${inp[s][d].image}`)
+
+            console.log(inp[s][d].image)
             
             imgTable.classList.add("imgTable")
             table.append(tr)
@@ -106,7 +108,7 @@ fetch("https://finalbossslayer.github.io/Menu/Data/items.json")
         }
 
         // For a backrownd image on the row
-        // btnPM.style.backgroundImage = `url(${inp[0]})`;
+        btnPM.style.backgroundImage = `url(${inp[s][2]})`;
             
             
 
