@@ -11,6 +11,10 @@ a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
 
+button:focus{
+  outline: none;
+}
+
 .pos-center-row{
     display: flex;
     flex-direction: row;
@@ -20,6 +24,10 @@ a:active { text-decoration: none; }
 .pos-row{
     display: flex;
     flex-direction: row;
+}
+
+.container .nav-tabs{
+  border: none;
 }
 
 .disp-row{
@@ -50,40 +58,43 @@ a:active { text-decoration: none; }
     color: #666;
 }
 
-.btn-menu{
-    color: white;
-    background-color: orangered;
-    border-radius: 20px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
+.pos-row .active{
+    color: white !important;
+    background-color: orangered !important;
+    border: 3px orangered solid !important;
 }
 
-.btn-menu:hover{
+/* .btn-menu:hover{
     color: white;
-}
+} */
 
-.btn-bar{
+.pos-row .nav-link{
     color: orangered;
     background-color: white;
     border: 3px orangered solid;
     border-radius: 20px;
+
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+
     font-weight: 600;
+
     display: flex;
     align-items: center;
 }
 
-.btn-bar:hover{
+/* .btn-bar:hover{
     color: orangered;
-}
+} */
 
 .search-div{
     background-color: rgb(231 231 231);
-    border: 0;
+    /* border: 0; */
     border-radius: 20px;
     border-radius: 20px;
-    width: 90vw;
-    display: flex;
+    /* width: 90vw; */
+    display: block;
 }
 
 .search{
@@ -123,78 +134,45 @@ a:active { text-decoration: none; }
     color: black;
 }
 
+.menu-div{
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+  box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
+  -moz-box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
+}
+
 .menu-div-1{
-    width: 90vw;
-    height: 15vh;
     background: linear-gradient(rgb(0 0 0 / 40%),rgb(0 0 0 / 40%)), url("https://booky.ph/blog/wp-content/uploads/2015/04/antoniosgarden-jygoflickr.jpg");
     background-size: cover;
     background-position:center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    
-    box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
-    -webkit-box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
-    -moz-box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
 }
 
 .menu-div-2{
-    width: 90vw;
-    height: 15vh;
     background: linear-gradient(rgb(0 0 0 / 40%),rgb(0 0 0 / 40%)), url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fupdated_main_images%2F1008w-baja-chicken-ensalada-x.jpg%3Fitok%3DNIwcFQ4-");
     background-size: cover;
     background-position:center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    
-    box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
-    -webkit-box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
-    -moz-box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
 }
 
 .menu-div-3{
-    width: 90vw;
-    height: 15vh;
     background: linear-gradient(rgb(0 0 0 / 40%),rgb(0 0 0 / 40%)), url("https://i.insider.com/5cdb28ca93a15248a520af66?width=1000&format=jpeg&auto=webp");
     background-size: cover;
     background-position:center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    
-    box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
-    -webkit-box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
-    -moz-box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
 }
 
 .menu-div-4{
-    width: 90vw;
-    height: 15vh;
     background: linear-gradient(rgb(0 0 0 / 40%),rgb(0 0 0 / 40%)), url("https://cdnimg.webstaurantstore.com/uploads/blog/2017/11/breakfast_image2.jpg");
     background-size: cover;
     background-position:center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    
-    box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
-    -webkit-box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
-    -moz-box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
 }
 
 .menu-h{
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 5vw;
-}
-
-.menu-main-div{
-    flex-direction: column;
-    align-items: center;
+    font-size: 5vh;
 }
