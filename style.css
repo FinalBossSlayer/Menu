@@ -84,6 +84,10 @@ button:focus{
     align-items: center;
 }
 
+.pos-row .nav-link:hover{
+  border: 3px orangered solid;
+}
+
 /* .btn-bar:hover{
     color: orangered;
 } */
