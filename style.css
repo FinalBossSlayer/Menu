@@ -113,7 +113,7 @@ button:focus{
     border: 0;
 } */
 
-.src-btn-div{
+.make-left{
     display: flex;
     flex-grow: 1;
     align-items: center;
@@ -150,6 +150,16 @@ button:focus{
   -moz-box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.3);
 }
 
+.menu-main-div .tab-pane .row> button{
+    border: 0;
+    background-color: transparent;
+}
+
+.btn-no-bs{
+    border: 0;
+    background-color: transparent;
+}
+
 .menu-div-1{
     background: linear-gradient(rgb(0 0 0 / 40%),rgb(0 0 0 / 40%)), url("https://booky.ph/blog/wp-content/uploads/2015/04/antoniosgarden-jygoflickr.jpg");
     background-size: cover;
@@ -179,4 +189,26 @@ button:focus{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 5vh;
+}
+
+.img-m-menu{
+    height: 35vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.menu-item-t{
+    font-size: 15px;
+}
+
+.menu-item-p{
+    color: orangered;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.dolar-sign{
+    color: orangered;
+    font-size: 15px;
+    font-weight: 600;
 }

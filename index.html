@@ -54,7 +54,7 @@
                 <!-- search bar -->
                 <div class="d-flex border-0 mt-4">
                     <input type="text" placeholder="Search" class="search px-3 py-2">
-                    <div class="src-btn-div px-1">
+                    <div class="make-left px-1">
                         <a href="#" class="src-btn p-2"><i class="fa fa-search" aria-hidden="true"></i></a>
                     </div>
                 </div>
@@ -65,29 +65,118 @@
                 <div class="tab-pane fade show active" id="nav-food" role="tabpanel" aria-labelledby="nav-food-tab">
                   <div class="row">
 
-                    <a href="#" class="mb-3 col-md-6 col-sm">
+                    <button href="#" class="mb-3 col-lg-4 col-md-6" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <div class="menu-div menu-div-1">
                             <h2 class="menu-h">Hot Meals</h2>
                         </div>
-                    </a>
+                    </button>
 
-                    <a href="#" class="mb-3 col-md-6 col-sm">
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title text-uppercase" id="exampleModalLabel">Hot Meals</h5>
+                            <button type="button" class="btn-no-bs" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-times fa-lg" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="d-flex flex-column col-lg-6 mb-5">
+                                            <img class="img-m-menu" src="https://www.chilihousesf.com/wp-content/uploads/2020/07/soup-dumplings.jpg" alt="">
+                                            <div class="d-block mt-2">
+                                                <div class="d-flex">
+                                                    <h6>"Homemade" dumplings</h6>
+                                                    <div class="make-left">
+                                                        <p>250 g</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="menu-item-t">Vareniki with mashed potatoes and fried chanterelles</p>
+                                            <div class="d-flex">
+                                                <p class="menu-item-p">4.5</p>
+                                                <p class="dolar-sign">$</p>
+                                            </div>
+                                        </div>
+    
+                                        <div class="d-flex flex-column col-lg-6 mb-5">
+                                            <img class="img-m-menu" src="https://cdn.hourdetroit.com/wp-content/uploads/sites/20/2017/01/161105_HR1cx_DSC5802.cx_.jpg" alt="">
+                                            <div class="d-block mt-2">
+                                                <div class="d-flex">
+                                                    <h6>"Homemade" dumplings</h6>
+                                                    <div class="make-left">
+                                                        <p>250 g</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="menu-item-t">Vareniki with mashed potatoes and fried chanterelles</p>
+                                            <div class="d-flex">
+                                                <p class="menu-item-p">4.5</p>
+                                                <p class="dolar-sign">$</p>
+                                            </div>
+                                        </div>
+    
+                                        <div class="d-flex flex-column col-lg-6 mb-5">
+                                            <img class="img-m-menu" src="https://www.eatthis.com/wp-content/uploads/sites/4/2022/04/epic-burger-cheeseburger.jpg?quality=82&strip=1" alt="">
+                                            <div class="d-block mt-2">
+                                                <div class="d-flex">
+                                                    <h6>"Homemade" dumplings</h6>
+                                                    <div class="make-left">
+                                                        <p>250 g</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="menu-item-t">Vareniki with mashed potatoes and fried chanterelles</p>
+                                            <div class="d-flex">
+                                                <p class="menu-item-p">4.5</p>
+                                                <p class="dolar-sign">$</p>
+                                            </div>
+                                        </div>
+    
+                                        <div class="d-flex flex-column col-lg-6 mb-5">
+                                            <img class="img-m-menu" src="https://www.mashed.com/img/gallery/you-should-start-eating-more-borscht-heres-why/l-intro-1609952226.jpg" alt="">
+                                            <div class="d-block mt-2">
+                                                <div class="d-flex">
+                                                    <h6>"Homemade" dumplings</h6>
+                                                    <div class="make-left">
+                                                        <p>250 g</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="menu-item-t">Vareniki with mashed potatoes and fried chanterelles</p>
+                                            <div class="d-flex">
+                                                <p class="menu-item-p">4.5</p>
+                                                <p class="dolar-sign">$</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            </div> -->
+                        </div>
+                        </div>
+                    </div>
+
+                    <button href="#" class="mb-3 col-lg-4 col-md-6">
                         <div class="menu-div menu-div-2">
                             <h2 class="menu-h">Salads</h2>
                         </div>
-                    </a>
+                    </button>
 
-                    <a href="#" class="mb-3 col-md-6 col-sm">
+                    <button href="#" class="mb-3 col-lg-4 col-md-6">
                         <div class="menu-div menu-div-3">
                             <h2 class="menu-h">Desserts</h2>
                         </div>
-                    </a>
+                    </button>
 
-                    <a href="#" class="mb-3 col-md-6 col-sm">
+                    <button href="#" class="mb-3 col-lg-4 col-md-6">
                         <div class="menu-div menu-div-4">
                             <h2 class="menu-h">Breakfasts</h2>
                         </div>
-                    </a>
+                    </button>
 
                   </div>
                 </div>
@@ -95,29 +184,29 @@
                 <div class="tab-pane fade" id="nav-drink" role="tabpanel" aria-labelledby="nav-drink-tab">
                   <div class="row">
 
-                    <a href="#" class="mb-3 col-md-6 col-sm">
+                    <button href="#" class="mb-3 col-lg-4 col-md-6">
                         <div class="menu-div menu-div-1">
                             <h2 class="menu-h">Hot Meals</h2>
                         </div>
-                    </a>
+                    </button>
 
-                    <a href="#" class="mb-3 col-md-6 col-sm">
+                    <button href="#" class="mb-3 col-lg-4 col-md-6">
                         <div class="menu-div menu-div-2">
                             <h2 class="menu-h">Salads</h2>
                         </div>
-                    </a>
+                    </button>
 
-                    <a href="#" class="mb-3 col-md-6 col-sm">
+                    <button href="#" class="mb-3 col-lg-4 col-md-6">
                         <div class="menu-div menu-div-3">
                             <h2 class="menu-h">Desserts</h2>
                         </div>
-                    </a>
+                    </button>
 
-                    <a href="#" class="mb-3 col-md-6 col-sm">
+                    <button href="#" class="mb-3 col-lg-4 col-md-6">
                         <div class="menu-div menu-div-4">
                             <h2 class="menu-h">Breakfasts</h2>
                         </div>
-                    </a>
+                    </button>
 
                   </div>
                 </div>
